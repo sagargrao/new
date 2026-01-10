@@ -1,0 +1,102 @@
+# ==============================
+# EXPERIMENT 1: INIT & COMMIT
+# ==============================
+mkdir exp1
+cd exp1
+git init
+touch hello.txt
+git add .
+git commit -m "First commit"
+
+# ==============================
+# EXPERIMENT 2: BRANCH & MERGE
+# ==============================
+git checkout -b feature-branch
+touch index.html
+git add .
+git commit -m "Commit in feature branch"
+git checkout master   # or main
+git merge feature-branch -m "Merged feature branch into master"
+
+# ==============================
+# EXPERIMENT 3: STASH
+# ==============================
+touch style.css
+git add .
+git stash
+git stash list
+git stash pop
+
+# ==============================
+# EXPERIMENT 4: CLONE
+# ==============================
+git clone https://github.com/username/repo.git
+cd repo
+
+# ==============================
+# EXPERIMENT 5: FETCH & REBASE
+# ==============================
+git remote add origin https://github.com/username/repo.git
+git remote -v
+git fetch origin
+git rebase origin/main   # or origin/master
+
+# ==============================
+# EXPERIMENT 6: BRANCH PRACTICE
+# ==============================
+git checkout -b test-branch
+touch test.txt
+git add .
+git commit -m "Test branch commit"
+git checkout master
+git merge test-branch
+
+# ==============================
+# EXPERIMENT 7: TAG
+# ==============================
+git log --oneline
+git tag v1.0 <commit-id>
+git tag
+
+# ==============================
+# EXPERIMENT 8: CHERRY-PICK
+# ==============================
+git checkout feature-branch
+touch demo.txt
+git add .
+git commit -m "Demo commit"
+git log --oneline
+git checkout master
+git cherry-pick <commit-id>
+
+# ==============================
+# EXPERIMENT 9: LOG & SHOW
+# ==============================
+git log --oneline
+git show <commit-id>
+
+# ==============================
+# EXPERIMENT 10: FILTER LOGS
+# ==============================
+git log --author="username"
+git log --since="2026-01-01" --until="2026-01-10"
+
+# ==============================
+# EXPERIMENT 11: LIMIT COMMITS
+# ==============================
+git log -n 5
+
+# ==============================
+# EXPERIMENT 12: RESET (HARD)
+# ==============================
+git log --oneline
+git reset --hard HEAD~1
+git log --oneline
+
+# ==============================
+# EXTRA USEFUL COMMANDS (VIVA)
+# ==============================
+git status
+git branch
+git branch -d feature-branch
+git stash clear
