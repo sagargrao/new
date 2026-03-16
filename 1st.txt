@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[paperheight=16cm, paperwidth=12cm, textwidth=10cm]{geometry}
+\usepackage{fancyhdr}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[RO,RE]{\fontsize{8}{8}\selectfont\textbf{My First Latex Document}}
+
+\fancyfoot{}
+\fancyfoot[LE,LO]{\thepage}
+\fancyfoot[RO,RE]{\fontsize{8}{8}\selectfont\textbf{PESITM}}
+
+\section{\textbf{About PESITM}}
+
+\subsection{\textbf{Facilities}}
+
+\begin{enumerate}
+\item First point
+\item Second point
+\end{enumerate}
+
+\section{\textbf{About Department of CSE}}
+
+\subsection{\textbf{Highlights}}
+
+\begin{itemize}
+\item First sub-point
+\item Second sub-point
+\end{itemize}
+
+\end{itemize}
+
+\section{\textbf{About LATEX}}
+
+\begin{itemize}
+\item First better class
+\end{itemize}
+
+\subsection{\textbf{Topic}}
+
+\begin{itemize}
+\item Lorem
+\end{itemize}
+
+\subsubsection{\textbf{Contacts}}
+
+\begin{itemize}
+\item Hello world
+\end{itemize}
+
+\end{document}
