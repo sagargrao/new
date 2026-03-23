@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[paperheight=12cm, paperwidth=16cm, textwidth=10cm]{geometry}
+\usepackage{fancyhdr}
+
+\begin{document}
+
+\pagestyle{fancy}
+
+% Footer
+\fancyfoot{}
+\fancyfoot[LE,LO]{\thepage}
+\fancyfoot[CO,CE]{{\fontsize{8}{8}\selectfont \textbf{PPP}}}
+
+% Header
+\fancyhead{}
+\fancyhead[CO,CE]{{\fontsize{8}{8}\selectfont \textbf{ggggg}}}
+
+% Content
+\textbf{Abstract:} hcadfubyeficfyuifybu hfusidjc g jnbj
+asc gbahcjkjvj nadkh bdhasbb 
+
+\tiny{\textbf{Keywords:} ggfg, hhgh, jjgjgj}
+
+\end{document}
