@@ -1,0 +1,82 @@
+\documentclass[a4paper,12pt]{report}
+
+\usepackage[paperheight=30cm, paperwidth=18cm, textwidth=7cm]{geometry}
+\usepackage{graphicx}
+
+\begin{document}
+
+\begin{center}
+
+\textbf{\fontsize{7}{7}\selectfont VISVESVARAYA TECHNOLOGICAL UNIVERSITY}\\
+Belagavi - 590018
+
+\vspace{5mm}
+
+\includegraphics[scale=0.4]{vtu.jpeg}
+
+\vspace{5mm}
+
+\textbf{A Project Report}\\
+
+on
+
+\vspace{3mm}
+
+\textbf{THE LaTeX LABORATORY REPORT}
+
+\vspace{5mm}
+
+Submitted for the award of degree\\
+
+of
+
+\vspace{2mm}
+
+\textbf{Bachelor of Engineering}\\
+
+in
+
+\vspace{2mm}
+
+Computer Science and Engineering
+
+\vspace{5mm}
+
+by
+
+\vspace{2mm}
+
+\textbf{Sagar G Rao}
+
+\vspace{2mm}
+
+4th Semester
+
+\vspace{5mm}
+
+Under the Guidance of
+
+\vspace{2mm}
+
+\textbf{Dr. Prasanna Kumar H R}\\
+Professor and Head\\
+Department of CSE
+
+\vspace{5mm}
+
+PES Institute of Technology and Management, Shivamogga
+
+\vspace{5mm}
+
+\includegraphics[scale=0.4]{pes.jpeg}
+
+\vspace{5mm}
+
+Department of CSE\\
+PESITM, Shivamogga\\
+
+March 2026
+
+\end{center}
+
+\end{document}
