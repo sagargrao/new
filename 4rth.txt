@@ -1,0 +1,39 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\begin{document}
+\begin{center}
+\textbf{Visvesvaraya Technological University}
+
+Jnana Sangama BELAGAVI - 590 014
+
+\includegraphics[scale=.5]{vtu_logo.jpeg}
+
+DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING
+
+\textbf{CERTIFICATE}
+
+\end{center}
+\vspace{4mm}
+This is surtfiy that Ms. SADIYA SHIFA bearing 4PM25CS410 is a bonafide student of bachelor of engineering course of the Department of computer Science and Engineerig. PESITM, Shivamogga, VTU, Belagavi, affiliated to Visvesvaraya Technological University, Belagavi. Project report on "sadiya shifa " is prepared by him under the guidance of XXXXXX in partial fulfilment of the requirement for the award of the degree of Bachelor of Engineering, Visvesvaraya Technological University, Belagavi, Karnataka.
+
+......................\hspace{2.5cm}......................\hspace{2.5cm}......................
+
+\vspace{4mm}
+Dr. Manu.s\hspace{1.4cm} Dr. Prasanna Kumar H R\hspace{1cm} Dr. Swamy D R
+
+\vspace{4mm}
+signature of guide \hspace{1.4cm}singnature of HOD \hspace{1.1cm}signature of Principal
+
+\begin{center}
+\vspace{8mm}
+\textbf{EXTERNAL EXAMINER}
+
+\end{center}
+\vspace{8mm}
+Name of Examiners\hspace{6cm}signature with date
+
+\begin{enumerate}
+\item
+\item
+\end{enumerate}
+\end{document}
