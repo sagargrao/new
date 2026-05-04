@@ -1,0 +1,31 @@
+\documentclass[a4paper,12pt]{report}
+\begin{document}
+
+\begin{equation}
+x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}
+\end{equation}
+
+\begin{equation}
+=\frac{-2\pm \sqrt{2^2-4*(1)*(-8)}}{2*1}
+\end{equation}
+
+\begin{equation}
+=\frac{-2\pm \sqrt{4+32}}{2}
+\end{equation}
+
+\begin{equation}
+\varphi_{I_{\sigma}}^{\lambda} A_{t}
+=\sum_{\pi}\varepsilon C_{t}^{\pi}\,{}^{\sigma}\mathrm{sgn}(\pi)
+\varphi_{I_{\sigma}}^{\lambda}\varphi_{I_{\pi}}^{\lambda}
+\end{equation}
+
+\begin{equation}
+=\sum_{\pi}\varepsilon C_{\sigma t}^{\pi}\,\mathrm{sgn}(\sigma^{-1}\tau\sigma)
+\varphi_{I_{\sigma}}^{\lambda}\varphi_{I_{\sigma^{-1}\tau\sigma}}^{\lambda}
+\end{equation}
+
+\begin{equation}
+=A_{I_{\sigma}\tau}\varphi_{I_{\sigma}}^{\lambda}
+\end{equation}
+
+\end{document}
